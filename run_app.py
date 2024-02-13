@@ -1,2 +1,2 @@
 import subprocess
-subprocess.run(["streamlit", "run", "app.py"])
+subprocess.run(["python -m streamlit", "run", "app.py"])
