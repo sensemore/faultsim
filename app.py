@@ -70,7 +70,8 @@ content = st.container()
 # Clear previous content
 content.empty()
 
-st.write("Vibrosim")
+st.title("Faultsim")
+st.text("By Sensemore Team")
 
 rpm =st.sidebar.slider("RPM", 100, 100000, st.session_state.rpm, key="rpm")
 
