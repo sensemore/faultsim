@@ -193,7 +193,7 @@ if len(machine.equipments) != 0:
         time.sleep(0.4)
 
 else:
-
+    st.write("No equipment connected. Add one using the sidebar.")
     #init two plot with height 300px
     signal_trace=go.Scatter(x=[], y=[])
     spectrum_trace=go.Scatter(x=[], y=[])
